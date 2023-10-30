@@ -1,0 +1,598 @@
+@media (min-width: 0px) and (max-width: 575.98px) {
+    /* =============================== menu part start ================================== */
+
+    .main_menu {
+        background: transparent !important;
+        width: 100%;
+        padding: 5px 0;
+    }
+
+    .main_menu img {
+        width: 150px !important;
+    }
+
+    .nav_icon i {
+        color: #1F918A;
+    }
+
+    .navbar-toggler {
+        color: #1F918A;
+    }
+
+    .main_menu ul {
+        gap: 20px;
+        background: #1F918A;
+        border-radius: 15px;
+        align-items: center;
+    }
+
+    .main_menu .menu_button {
+        text-align: center;
+    }
+
+    /* -------------------------------- menu part end ----------------------------------- */
+
+    /* =============================== banner part start ================================== */
+    #banner .banner_text p {
+        width: 100%;
+    }
+
+    #banner .banner_btn {
+        display: flex;
+        gap: 27px;
+        margin-top: 50px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /* -------------------------------- banner part end ----------------------------------- */
+    /* =============================== get app part start ================================== */
+    #get_app {
+        padding-top: 15px;
+        padding-bottom: 50px;
+    }
+
+    #get_app .app_img img {
+        height: 325px;
+    }
+
+    #get_app .app_img .get_info {
+        position: absolute;
+        top: 75px;
+        left: 83px;
+    }
+
+    #get_app .app_img .get_info h2 {
+        width: 100%;
+        font-size: 14px;
+        font-weight: 600;
+        font-family: var(--outfit);
+        color: var(--brand_color);
+        text-align: center;
+    }
+
+    #get_app .app_img .get_info .button {
+        margin-top: 70px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #get_app .app_img .get_info .btn {
+        width: 128px;
+        text-align: center;
+        padding: 4px 15px;
+        margin-bottom: 23px;
+        position: relative;
+    }
+
+    #get_app .app_img .get_info .btn a {
+        font-size: 13px;
+        font-weight: 600;
+        font-family: var(--poppins);
+        color: var(--heading_color);
+        border-radius: 15px;
+        z-index: 1;
+        position: inherit;
+    }
+
+    /* -------------------------------- get app part end ----------------------------------- */
+    /* =============================== Code Your Dreams part start ================================== */
+    #code_dream {
+        padding: 100px 0;
+    }
+
+    #code_dream .message_position {
+        left: 11px;
+    }
+
+    #code_dream .message_one {
+        margin-left: 0;
+    }
+
+    #code_dream .message_three {
+        margin-left: 0;
+    }
+
+    #code_dream .code_dream_text h2 {
+        width: 100%;
+    }
+
+    #code_dream .code_dream_text p {
+        width: 100%;
+    }
+
+    /* -------------------------------- Code Your Dreams part end ----------------------------------- */
+    /* =============================== features part start ================================== */
+
+    #features .features_head h1 {
+        font-size: 28px;
+        margin-bottom: 40px;
+    }
+
+    .features_slider .features_img {
+        width: 300px !important;
+        transform: scale(1);
+        border-radius: 20px;
+        overflow: hidden;
+    }
+
+    .features_slider .slick-slide {
+        filter: none;
+    }
+
+    #unlock .unlock_text h1 {
+        width: 100%;
+        font-size: 30px;
+    }
+
+    /* -------------------------------- features part end ----------------------------------- */
+
+    /* =============================== about part start ================================== */
+    #about_app .head_text h1 {
+        font-size: 30px;
+    }
+
+    #about_app .head_text p {
+        width: 100%;
+    }
+
+    #about_app .about_app_list ul li {
+        margin-bottom: 35px;
+        display: flex;
+        align-items: baseline;
+    }
+
+    #about_app .about_app_list ul li span {
+        width: 100%;
+        font-size: 20px;
+        display: inline-block;
+    }
+
+    /* -------------------------------- about part end ----------------------------------- */
+    /* =============================== cards part start ================================== */
+    #code_dream {
+        padding: 100px 0;
+    }
+
+    #code_dream .message_position {
+        left: 11px;
+    }
+
+    #code_dream .message_one {
+        margin-left: 0;
+    }
+
+    #code_dream .message_three {
+        margin-left: 0;
+    }
+
+    #code_dream .code_dream_text h2 {
+        width: 100%;
+    }
+
+    #code_dream .code_dream_text p {
+        width: 100%;
+    }
+
+    /* -------------------------------- cards part end ----------------------------------- */
+    /* =============================== counter part start ================================== */
+    .counter_part_img {
+        width: 100%;
+    }
+
+    .counter_row_1 {
+        flex-wrap: wrap;
+    }
+
+    .counter_row_2 {
+        flex-wrap: wrap;
+    }
+
+    /* -------------------------------- counter part end ----------------------------------- */
+    /* ================= footer part start =============== */
+    .footer_image img {
+        height: 80px;
+    }
+
+    .privacy_text ul {
+        margin-top: 10px;
+    }
+
+    .footer_concat h3 {
+        margin-top: 31px;
+    }
+
+    .footer_concat ul {
+        margin-top: 10px;
+    }
+
+    .footer_text p {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .footer_concat {
+        padding-left: 26px;
+    }
+
+    .privacy_text {
+        padding-left: 26px;
+    }
+
+    #footer .copyright {
+        font-size: 14px;
+        margin-top: 20px;
+    }
+
+    /* ------------------- footer part end ------------------ */
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* =============================== menu part start ================================== */
+
+    .main_menu {
+        background: transparent !important;
+        width: 100%;
+        padding: 5px 0;
+    }
+
+    .main_menu img {
+        width: 175px !important;
+    }
+
+    .nav_icon i {
+        color: #1F918A;
+    }
+
+    .navbar-toggler {
+        color: #1F918A;
+    }
+
+    .main_menu ul {
+        gap: 30px;
+        background: #1F918A;
+        border-radius: 15px;
+        align-items: center;
+    }
+
+    .main_menu .menu_button {
+        text-align: center;
+    }
+
+    /* -------------------------------- menu part end ----------------------------------- */
+
+    /* =============================== banner part start ================================== */
+    #banner .banner_text p {
+        width: 100%;
+    }
+
+    #banner .slick-list {
+        left: 50%;
+    }
+
+    #banner .banner_btn {
+        display: flex;
+        gap: 27px;
+        margin-top: 50px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /* -------------------------------- banner part end ----------------------------------- */
+    /* =============================== get app part start ================================== */
+    #get_app {
+        padding-top: 15px;
+        padding-bottom: 50px;
+    }
+
+    #get_app .app_img .get_info {
+        position: absolute;
+        top: 119px;
+        left: 152px;
+    }
+
+    #get_app .app_img .get_info h2 {
+        width: 100%;
+        font-size: 24px;
+        font-weight: 600;
+        font-family: var(--outfit);
+        color: var(--brand_color);
+        text-align: center;
+    }
+
+    #get_app .app_img .get_info .button {
+        margin-top: 70px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #get_app .app_img .get_info {
+        position: absolute;
+        top: 160px;
+        left: 157px;
+    }
+
+    #get_app .app_img .get_info .btn a {
+        font-size: 13px;
+        font-weight: 600;
+        font-family: var(--poppins);
+        color: var(--heading_color);
+        border-radius: 15px;
+        z-index: 1;
+        position: inherit;
+    }
+
+    /* -------------------------------- get app part end ----------------------------------- */
+    /* =============================== Code Your Dreams part start ================================== */
+
+    /* -------------------------------- Code Your Dreams part end ----------------------------------- */
+    /* =============================== features part start ================================== */
+
+    #features .features_head {
+        width: 100%;
+        margin: 0px auto;
+    }
+
+    #features .features_head h1 {
+        font-size: 53px;
+    }
+
+    .features_slider .features_img {
+        width: 350px !important;
+        transform: scale(.6);
+        border-radius: 20px;
+        overflow: hidden;
+    }
+
+    .features_slider .slick-slide {
+        filter: none;
+    }
+
+    #unlock .unlock_text h1 {
+        width: 100%;
+        font-size: 30px;
+    }
+
+    #features .draggable {
+        padding: 0 68px !important;
+    }
+
+    /* -------------------------------- features part end ----------------------------------- */
+    /* =============================== about part start ================================== */
+    #about_app .about_img {
+        width: 338px;
+        margin: 0 auto;
+    }
+
+    #about_app .head_text h1 {
+        font-size: 30px;
+    }
+
+    #about_app .head_text p {
+        width: 100%;
+    }
+
+    #about_app .about_app_list ul li {
+        margin-bottom: 35px;
+        display: flex;
+        align-items: baseline;
+    }
+
+    #about_app .about_app_list ul li span {
+        width: 100%;
+        font-size: 20px;
+        display: inline-block;
+    }
+
+    /* -------------------------------- about part end ----------------------------------- */
+    /* =============================== counter part start ================================== */
+    .counter_part_img {
+        width: 100%;
+    }
+
+    .counter_row_1 {
+        flex-wrap: wrap;
+    }
+
+    .counter_row_2 {
+        flex-wrap: wrap;
+    }
+
+    /* -------------------------------- counter part end ----------------------------------- */
+    /* ================= footer part start =============== */
+    .footer_image img {
+        height: 80px;
+    }
+
+    .privacy_text ul {
+        margin-top: 10px;
+    }
+
+    .footer_concat h3 {
+        margin-top: 31px;
+    }
+
+    .footer_concat ul {
+        margin-top: 10px;
+    }
+
+    .footer_text p {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .footer_concat {
+        padding-left: 26px;
+    }
+
+    .privacy_text {
+        padding-left: 26px;
+    }
+
+    #footer .copyright {
+        font-size: 14px;
+        margin-top: 20px;
+    }
+
+    /* ------------------- footer part end ------------------ */
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* =============================== menu part start ================================== */
+
+    .main_menu {
+        background: transparent !important;
+        width: 100%;
+        padding: 5px 0;
+    }
+
+    .main_menu img {
+        width: 200px !important;
+    }
+
+    .nav_icon i {
+        color: #1F918A;
+    }
+
+    .navbar-toggler {
+        color: #1F918A;
+    }
+
+    .main_menu ul {
+        gap: 35px;
+        background: #1F918A;
+        border-radius: 15px;
+        align-items: center;
+    }
+
+    .main_menu .menu_button {
+        text-align: center;
+    }
+
+    /* -------------------------------- menu part end ----------------------------------- */
+
+    /* =============================== menu part start ================================== */
+    #code_dream .code_img {
+        width: 338px;
+        position: relative;
+        margin: 0 auto;
+    }
+
+    #code_dream .code_dream_text h2 {
+        width: 529px;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 700;
+        font-family: var(--poppins);
+        color: var(--heading_color);
+        margin: 0 auto;
+        margin-top: 100px;
+        margin-bottom: 40px;
+    }
+
+    #code_dream .code_dream_text p {
+        width: 527px;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 400;
+        font-family: var(--poppins);
+        color: var(--pragraph_color);
+        margin: 0 auto;
+    }
+
+    /* -------------------------------- menu part end ----------------------------------- */
+    /* =============================== get part start ================================== */
+    #about_app .about_img {
+        width: 338px;
+        margin: 0 auto;
+    }
+
+    #get_app .app_text {
+        text-align: center;
+        margin-top: -62px;
+    }
+
+    #get_app .app_img .get_info .button {
+        margin-top: 70px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #get_app .app_img .get_info {
+        position: absolute;
+        top: 123px;
+        left: 226px;
+    }
+
+    #unlock .unlock_text h1 {
+        width: 100%;
+    }
+
+    /* -------------------------------- get part end ----------------------------------- */
+    /* ================= counter part start =============== */
+    .counter_part_img {
+        width: 100%;
+    }
+
+    .counter_row_1 {
+        flex-wrap: wrap;
+    }
+
+    .counter_row_2 {
+        flex-wrap: wrap;
+    }
+
+    /* ------------------- counter part end ------------------ */
+
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+
+    #get_app .app_img .get_info {
+        position: absolute;
+        top: 123px;
+        left: 162px;
+    }
+
+    .counter_part_img {
+        width: 100%;
+    }
+
+    .counter_row_1 {
+        flex-wrap: wrap;
+    }
+
+    .counter_row_2 {
+        flex-wrap: wrap;
+    }
+
+    /* ------------------- counter part end ------------------ */
+    .footer_image img {
+        width: 220px !important;
+        height: 43px;
+    }
+
+}

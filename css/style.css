@@ -1,0 +1,860 @@
+/* =============================== fonts css part start ================================== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* -------------------------------- fonts css part end ------------------------------------ */
+/* =============================== var css part start ================================== */
+:root {
+    --brand_color: #1F918A;
+    --pragraph_color: #E1E1E1;
+    --heading_color: #EEEEEE;
+    --outfit: 'Outfit', sans-serif;
+    --poppins: 'Poppins', sans-serif;
+}
+
+/* -------------------------------- var css part end ------------------------------------ */
+
+/* =============================== commom css part start ================================== */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #222831;
+}
+
+/* -------------------------------- commom css part end ------------------------------------ */
+
+/* =============================== menu css part start ================================== */
+
+.main_menu {
+    background: transparent !important;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.menu_fixed {
+    position: sticky;
+    width: 100%;
+    background: #3A4351;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    backdrop-filter: blur(20px);
+
+}
+
+.main_menu ul {
+    gap: 50px;
+}
+
+.main_menu ul li a {
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFFFFF !important;
+    position: relative;
+    transition: all linear .3s;
+
+}
+
+.main_menu ul li a:hover {
+    color: #1F918A !important;
+}
+
+.main_menu .menu_button {
+    border-radius: 17px;
+    padding: 13px 12px;
+    border: 1px solid #3A4351;
+    position: relative;
+    line-height: normal;
+}
+
+.main_menu .menu_button::after {
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--brand_color);
+    border-radius: 17px;
+    position: absolute;
+    transition: .5s;
+}
+
+.main_menu .menu_button::before {
+    content: '';
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #3A4351;
+    border-radius: 17px;
+    position: absolute;
+    transition: .5s;
+}
+
+.main_menu .menu_button:hover::after {
+    height: 50%;
+}
+
+.main_menu .menu_button a {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFFFFF !important;
+    z-index: 1;
+    position: inherit;
+
+}
+
+/* -------------------------------- menu css part end ------------------------------------ */
+/* =============================== banner css part start ================================== */
+#banner {
+    background: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 11px;
+    padding-bottom: 233px;
+}
+
+#banner .banner_text h1 {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: var(--outfit);
+    color: var(--heading_color);
+    margin-top: 123px;
+    margin-bottom: 40px;
+
+}
+
+#banner .banner_text p {
+    width: 426px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: var(--pragraph_color);
+}
+
+#banner .banner_btn {
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+#banner .banner_btn .btn_one {
+    padding: 15px 10px;
+    border-radius: 15px;
+
+    position: relative;
+}
+
+#banner .banner_btn .btn_one::after {
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--brand_color);
+    border-radius: 17px;
+    position: absolute;
+    transition: .5s;
+}
+
+#banner .banner_btn .btn_one::before {
+    content: '';
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #3A4351;
+    border-radius: 17px;
+    position: absolute;
+    transition: .5s;
+}
+
+#banner .banner_btn .btn_one:hover::after {
+    height: 50%;
+}
+
+#banner .banner_btn a {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: var(--poppins);
+    color: var(--heading_color);
+    text-align: center;
+    position: inherit;
+    z-index: 1;
+}
+
+#banner .banner_btn a span {
+    margin-right: 10px;
+    color: #fff;
+}
+
+
+#banner .banner_slider {
+    width: 243px !important;
+    height: 523px;
+    margin-top: 47px;
+}
+
+.banner_slider ul {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.banner_slider ul li button {
+    font-size: 0;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: none;
+    background: #3A4351;
+}
+
+.banner_slider ul .slick-active button {
+    background: #B55400;
+}
+
+/* -------------------------------- banner css part end ------------------------------------ */
+
+/* =============================== Getapp css part start ================================== */
+#get_app {
+    padding-top: 136px;
+    padding-bottom: 157px;
+}
+
+#get_app .app_text {
+    text-align: center;
+    margin-top: 256px;
+}
+
+#get_app .app_text h1 {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: var(--outfit);
+    color: var(--heading_color);
+}
+
+#get_app .app_text p {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: var(--pragraph_color);
+    margin-top: 50px;
+}
+
+#get_app .app_img {
+    position: relative;
+}
+
+#get_app .app_img img {
+    height: 671px;
+
+}
+
+#get_app .app_img .get_info {
+    position: absolute;
+    top: 123px;
+    left: 200px;
+}
+
+#get_app .app_img .get_info h2 {
+    width: 237px;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: var(--outfit);
+    color: var(--brand_color);
+    text-align: center;
+}
+
+#get_app .app_img .get_info .button {
+    margin-top: 70px;
+}
+
+#get_app .app_img .get_info .btn {
+    padding: 13px 30px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+#get_app .app_img .get_info .btn::after {
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--brand_color);
+    border-radius: 17px 40px;
+    position: absolute;
+    transition: .5s;
+}
+
+#get_app .app_img .get_info .btn::before {
+    content: '';
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #B55400;
+    border-radius: 17px;
+    position: absolute;
+    transition: .5s;
+}
+
+#get_app .app_img .get_info .btn:hover::after {
+    width: 50%;
+}
+
+#get_app .app_img .get_info .btn a {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: var(--poppins);
+    color: var(--heading_color);
+    border-radius: 15px;
+    z-index: 1;
+    position: inherit;
+}
+
+#get_app .app_img .get_info .btn a span {
+    margin-right: 10px;
+}
+
+/* -------------------------------- Getapp css part end ------------------------------------ */
+/* =============================== Code Your Dreams css part start ================================== */
+#code_dream {
+    padding: 150px 0;
+}
+
+#code_dream .code_img {
+    width: 338px;
+    position: relative;
+}
+
+#code_dream .code_img::before {
+    content: '';
+    width: 500px;
+    height: 500px;
+    right: -75px;
+    top: 50px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: rgba(31, 145, 137, 0.699);
+    filter: blur(200px);
+    z-index: -1;
+}
+
+#code_dream .message_position {
+    position: absolute;
+    top: 71px;
+    right: 70px;
+    z-index: 99;
+}
+
+#code_dream .message_code {
+    position: relative;
+    margin-bottom: 118px;
+}
+
+#code_dream .message_one {
+    margin-left: 70px;
+}
+
+#code_dream .message_three {
+    margin-left: 48px;
+}
+
+#code_dream .message_code .message_img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    overflow: hidden;
+    z-index: 1;
+}
+
+#code_dream .message_code .message_text {
+    backdrop-filter: blur(20px);
+    background: rgba(217, 217, 217, 0.20);
+    border-radius: 8px;
+    padding: 20px 10px 10px 20px;
+    position: absolute;
+    top: 33px;
+    z-index: -1;
+}
+
+#code_dream .message_code .message_text p {
+    width: 255px;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: var(--poppins);
+    color: var(--pragraph_color);
+}
+
+#code_dream .code_dream_text h2 {
+    width: 529px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: var(--poppins);
+    color: var(--heading_color);
+    margin-top: 184px;
+    margin-bottom: 40px;
+}
+
+#code_dream .code_dream_text p {
+    width: 527px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: var(--pragraph_color);
+}
+
+/* -------------------------------- Code Your Dreams css part end ------------------------------------ */
+/* =============================== Features We Give css part start ================================== */
+#features {
+    padding-bottom: 114px;
+}
+
+#features .features_head {
+    width: 405px;
+    margin: 0 auto;
+}
+
+#features .features_head h1 {
+    margin-bottom: 10px;
+    width: 100%;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: var(--outfit);
+    border-right: 5px solid #B55400;
+    color: transparent;
+    -webkit-text-stroke: 0.5px #1F918A;
+    letter-spacing: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    animation:
+        typing 2s infinite,
+        cursor .4s infinite;
+}
+
+@keyframes cursor {
+    50% {
+        border-color: transparent;
+    }
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+.features_slider .features_img {
+    width: 375px !important;
+    transform: scale(.6);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.features_slider ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.features_slider ul li button {
+    font-size: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #3A4351;
+    border: none;
+}
+
+.features_slider .slick-list {
+    margin-bottom: 30px !important;
+    height: 700px !important;
+
+}
+
+.features_slider .slick-slide {
+    filter: blur(10px);
+}
+
+.features_slider ul .slick-active button {
+    background: #B55400;
+}
+
+.features_slider .slick-center {
+    transform: scale(1.2);
+    filter: none;
+    transition: .5s;
+}
+
+/* -------------------------------- Features We Give css part end ------------------------------------ */
+
+#unlock {
+    background: url(../images/unlock.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 124px 0;
+}
+
+#unlock .unlock_text {
+    padding: 38px 6px;
+    border-radius: 8px;
+    background: rgba(31, 145, 138, 0.20);
+
+    backdrop-filter: blur(10px);
+}
+
+#unlock .unlock_text h1 {
+    width: 1032px;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: var(--outfit);
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* =============================== About Our App css part start ================================== */
+#about_app {
+    padding: 150px 0;
+}
+
+#about_app .about_img {
+    width: 338px;
+}
+
+#about_app .head_text h1 {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: var(--outfit);
+    color: var(--heading_color);
+    margin-top: 115px;
+    margin-bottom: 44px;
+}
+
+#about_app .head_text p {
+    width: 496px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: var(--pragraph_color);
+    margin-bottom: 23px;
+}
+
+#about_app .head_text p span {
+    text-transform: uppercase;
+    color: var(--brand_color);
+    border-bottom: 1px solid #B55400;
+    font-weight: 600;
+}
+
+#about_app .about_app_list ul {
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+}
+
+#about_app .about_app_list ul li {
+    margin-bottom: 35px;
+}
+
+#about_app .about_app_list ul li i {
+    color: #B55400;
+}
+
+#about_app .about_app_list ul li span {
+    width: 392px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: var(--pragraph_color);
+    margin-left: 24px;
+
+
+}
+
+/* -------------------------------- About Our App css part end ------------------------------------ */
+/* =============================== card css part start ================================== */
+#codecanon_cards {
+    padding-bottom: 150px;
+}
+
+#codecanon_cards .cards {
+    width: 303px;
+    background: #3a4351;
+    border-radius: 9px;
+    margin-top: 39px;
+    margin-left: 44px;
+    transition: all linear 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#codecanon_cards .cards:hover {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.cards_image {
+    width: 100%;
+}
+
+.cards_image img {
+    width: 100%;
+}
+
+#codecanon_cards .cards_text {
+    width: 100%;
+}
+
+#codecanon_cards .cards_text p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: #e4e4e4;
+    text-align: center;
+    padding: 0 10px;
+    margin-top: 52px;
+    height: 100px;
+    width: 100%;
+}
+
+#codecanon_cards .card_button a {
+    width: 138px;
+    height: 34px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    color: #000000;
+    background: #b1b1b1;
+    border-radius: 15px;
+    text-align: center;
+    line-height: 34px;
+    margin: 10px 0 20px 0;
+    transition: all linear 0.3s;
+}
+
+#codecanon_cards .card_button a:hover {
+    background: transparent;
+    color: #e4e4e4;
+    border: 1px solid #b1b1b1;
+}
+
+/* -------------------------------- card css part end ------------------------------------ */
+/* =============================== counter css part start ================================== */
+#counter_part {
+    padding-bottom: 150px;
+}
+
+.counter_part_img {
+    width: 586px;
+}
+
+.counter_img_text {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: all linear .3s;
+}
+
+.counter_img_text:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background: #B55400;
+}
+
+.counter_row_1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.counter_row_2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.counter_img_text {
+    width: 200px;
+    height: 173px;
+    background: #1F918A;
+    border-radius: 20px;
+    padding-left: 21px;
+    margin-top: 97px;
+}
+
+.counter_icon {
+    width: 40px;
+    height: 40px;
+    padding-top: 42px;
+    margin-bottom: 30px;
+}
+
+.counter_text h2 {
+    font-size: 30px;
+    font-weight: 600;
+    font-family: var(--outfit);
+    color: #000;
+    padding-bottom: 4px;
+}
+
+.counter_text p {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: #000;
+}
+
+/* -------------------------------- counter css part end ------------------------------------ */
+/* =============================== footer css part start ================================== */
+#footer {
+    background: #3A4351;
+    padding: 35px 0 18px 0;
+}
+
+.footer_text p {
+    width: 338px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    ;
+    font-weight: 400;
+    color: #CACACA;
+    padding-top: 33px;
+    padding-left: 26px;
+}
+
+.footer_item {
+    margin-bottom: 39px;
+    margin-top: 12px;
+}
+
+.footer_item .fa-facebook {
+    color: #0052ff;
+}
+
+.footer_item .fa-facebook:hover {
+    color: #fff;
+}
+
+.footer_item .fa-instagram {
+    color: red;
+}
+
+.footer_item .fa-instagram:hover {
+    color: #fff;
+}
+
+.footer_item .fa-twitter {
+    color: #1DA1F2;
+}
+
+.footer_item .fa-twitter:hover {
+    color: #fff;
+}
+
+.footer_item .fa-youtube {
+    color: #c4302b;
+}
+
+.footer_item .fa-youtube:hover {
+    color: #fff;
+}
+
+.footer_item .fa-linkedin-in {
+    color: #0e76a8;
+}
+
+.footer_item .fa-linkedin-in:hover {
+    color: #fff;
+}
+
+.footer_item ul li a {
+    padding-left: 25px;
+    font-size: 27px;
+    color: #fff;
+}
+
+.footer_item.dfdf {
+    font-size: 16px;
+}
+
+.footer_item ul {
+    display: flex;
+    gap: 8px;
+}
+
+.footer_image img {
+    width: 220px;
+    height: 51px;
+    margin-bottom: -20px;
+}
+
+.privacy_text h3 {
+    color: #fff;
+    font-size: 19px;
+}
+
+.privacy_text ul li a {
+    color: #CACACA;
+    padding: 3px;
+}
+
+.privacy_text ul {
+    margin-top: 33px;
+}
+
+
+.footer_concat ul li a {
+    color: #CACACA;
+    padding: 3px;
+}
+
+.footer_concat ul {
+    margin-top: 33px;
+}
+
+.footer_concat h3 {
+    color: #fff;
+    font-size: 19px;
+}
+
+#footer .copyright {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: var(--pragraph_color);
+}
+
+/* -------------------------------- footer css part end ------------------------------------ */
