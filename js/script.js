@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 // nev bar start
 let menu = document.querySelector('.main_menu');
 
@@ -231,6 +231,3 @@ $('.count').counterUp({
   delay: 10,
   time: 1000
 });
-
->>>>>>> 4e5ae35fc37f374932c2b87bb8537ca66716bb38
-AOS.init();
