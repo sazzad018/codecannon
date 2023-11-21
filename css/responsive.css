@@ -151,3 +151,157 @@
         display: none;
     }
 }
+
+@media screen and (max-width: 992px){
+    #banner .banner_text h1 {
+        width: 100%;
+        font-size: 37px;
+        text-align: center;
+    }
+
+    #banner .banner_text p {
+        width: 100%;
+        text-align: center;
+    }
+    #banner .banner_btn {
+        width: 100%;
+        justify-content: center;
+    }
+
+    #banner .banner_btn .btn_one {
+        padding: 15px 8px;
+    }
+
+    #banner .banner_slider {
+        width: 243px !important;
+        height: 523px;
+        margin: 0 auto;
+        margin-top: 47px;
+    }
+    #get_app {
+        padding-top: 0;
+        padding-bottom: 157px;
+    }
+    #get_app .app_text {
+        margin-top: 0;
+    }
+
+    #get_app .app_img img {
+        height: 447px;
+    }
+    #get_app .app_text h1 {
+        font-size: 34px;
+        width: 100%;
+    }
+
+    #get_app .app_text p {
+        width: 100%;
+    }
+
+    #get_app .app_img .get_info {
+        position: absolute;
+        top: 108px;
+        left: -3px;
+    }
+
+    #get_app .app_img .get_info h2 {
+        width: 100%;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    #get_app .app_img .get_info .button {
+        margin-top: 70px;
+        text-align: center;
+    }
+
+    #get_app .app_img .get_info .btn {
+        padding: 10px 10px;
+        margin-bottom: 29px;
+        position: relative;
+    }
+
+    #code_dream .message_position {
+        right: 267px;
+    }
+
+    #code_dream .message_one {
+        margin-left: 0;
+    }
+
+    #code_dream .message_three {
+        margin-left: 0;
+    }
+
+    #code_dream .code_img {
+        width: 100%;
+        position: relative;
+        text-align: center;
+    }
+
+    #code_dream .code_dream_text h2 {
+        width: 100%;
+    }
+
+    #code_dream .code_dream_text p {
+        width: 100%;
+    }
+
+    #features .features_head {
+        width: 100%;
+    }
+
+    #features .features_head h1 {
+        font-size: 35px;
+    }
+
+    .slick-slider {
+        display: none;
+    }
+
+    #unlock .unlock_text h1 {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    #about_app .about_img {
+        width: 100%;
+    }
+
+    #about_app .head_text p {
+        width: 100%;
+        font-size: 20px;
+        font-weight: 400;
+        font-family: var(--poppins);
+        color: var(--pragraph_color);
+        margin-bottom: 23px;
+    }
+
+    #about_app .about_app_list ul li {
+        display: flex;
+        align-items: baseline;
+    }
+
+    #about_app .about_app_list ul li span {
+        width: 100%;
+        display: inline-block;
+    }
+
+    [data-aos^="fade"][data-aos^="fade"].aos-animate {
+        width: 100%;
+    }
+
+    [data-aos][data-aos][data-aos-easing="ease-out-cubic"], body[data-aos-easing="ease-out-cubic"] [data-aos] {
+        gap: 10px;
+    }
+
+    #codecanon_cards .cards {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    [data-aos][data-aos][data-aos-easing="ease-out-cubic"], body[data-aos-easing="ease-out-cubic"] [data-aos] {
+        gap: 10px;
+        display: none;
+    }
+}
